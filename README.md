@@ -31,7 +31,7 @@
 
 ---
 
-## 📦 Installation
+## 📦 Installation & ⚙️ Environment Configuration
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -39,7 +39,9 @@ cd your-repo-name
 composer install
 cp .env.example .env
 php artisan key:generate
+
 ⚙️ Environment Configuration
+
 Update your .env file with your mail service credentials:
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.yourprovider.com
